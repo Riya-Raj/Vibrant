@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Vibrant World</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dropmenu.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="divnav.css">
+    <link rel="stylesheet" type="text/css" href="magic_circles.css"> 
+</head>
+
+<body>
+	<div id="vibbar">
+		<ul class="a">
+			<li><a href="#1">Adventure</a></li>
+			<li><a href="#1">Puzzles</a></li>
+			<li><a href="#1">Memory</a></li>
+			<li><a href="#1">Crossword</a></li>
+			<li><a href="#1">Detective</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Other</a>
+				<div class="dropdown-content">
+					<a href="#">blast</a>
+					<a href="#">puzzles</a>
+				</div>
+			</li>	
+		</ul>
+	</div>
+
+	<section>
+		<article>
+			<div id="circle1">
+				<div id="circle1-spann">
+					<span id="message"></span>
+				</div>
+			</div>
+		</article>
+		<nav>
+			<button class="button1" style="vertical-align: middle" onclick="showDiv()"><span>Magic Circle!!</span></button>
+			<button class="button1" style="vertical-align: middle"><span>TIME!!</span></button>
+
+			<div class="magcir1">
+				<span id="wel" style="display: none;">Hello friends! Let's look at the magic of circle. Let us look at the brilliance of colours. <br>
+				Enter your name: 
+				      <input type="text" id="name">
+				      <input type="button" value="Submit" onclick="displayoncircle()">
+			    </span><br><br>
+			    <span id="colin"  style="display: none;">
+			    	We all love a colourful world and a vibrant circle.
+			    	<br>
+			    	See the beautiful colours in the circle.<br>
+			    	Enter your favourite colour: <br> <input type="text" id="color1"><br>
+			    	<input type="text" id="color2"><br><input type="text" id="text">
+                </span>
+			</div>
+			
+		</nav>
+	</section>
+
+<script type="text/javascript" src="javascript.js"></script>	
+	
+
+</body>
+</html>

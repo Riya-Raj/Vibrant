@@ -1,0 +1,25 @@
+.button1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #990033;
+  border: none;
+  border-radius: 15px;
+  margin: 20px;
+  
+}
+
+.button1:hover {
+  background-color: #66FCF1;
+  color: black;
+}
+
+.button1:active {
+  background-color: #3e8e41;
+  
+  
+}
+
